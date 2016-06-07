@@ -6,8 +6,8 @@ module Faker
     class << self
 
       PROTOCOL_VERSIONS = {
-        main: 0,
-        testnet: 111
+        :main => 0,
+        :testnet => 111
       }
 
       def address
